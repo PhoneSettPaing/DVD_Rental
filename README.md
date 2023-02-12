@@ -56,8 +56,10 @@ Data Warehouse is schema on write which means it needs to have a schema before l
 Since it is a schema on write, I created a star schema data model before uploading data into a Data Warehouse, Redshift.
 
 ![ER Diagram](https://github.com/PhoneSettPaing/DVD_Rental/blob/1def632018be3434417b30349ecf62fa79d5afaf/images/dvdrental_ER_diagram.PNG)
+<p align='center'>Orginal DVD Rental ER(Entity Relationship) Model</p>
 
 ![Star Schema](https://github.com/PhoneSettPaing/DVD_Rental/blob/1def632018be3434417b30349ecf62fa79d5afaf/images/dvdrental_star_schema.PNG)
+<p align='center'>DVD Rental Star Schema Model I have created</p>
 
 After that I created a cluster and then a database in that cluster on Redshift. Later that database will get uploaded with tables from the above star schema.
 
@@ -67,6 +69,7 @@ I have also done another way of loading data into Redshift which is writing [ETL
 
 After loading the data, I connected Redshift with Tabelau (Data visualization software) to create a sample dashboard business report.
 ![Example Dashboard](https://github.com/PhoneSettPaing/DVD_Rental/blob/1def632018be3434417b30349ecf62fa79d5afaf/images/DVD_Rental_Dashboard.PNG)
+<p align='center'>Sample Dashboard I created using Tableau</p>
 
 [^1]: My reference.
 [^2]: Every new line should be prefixed with 2 spaces.
