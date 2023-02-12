@@ -36,3 +36,12 @@ Data Warehouses are built to manage analytics and aggregations quickly by storin
 ![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/ddd0d6078022e7fcd6bf64f31eb5f9d049b1169f/images/Row_vs_Column_Store.png)
 <p align='center'>Row Store Vs Column Store[^2]</p>
 So, it is better to use a Data Warehouse for analytical purposes.
+
+## Things I have done in this Project:
+![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/b8e9287e20fd546f23e64e5e2284b3a27e3a3d60/images/Data_Architecture.PNG)
+
+In this Project, I used DVD rental data form [PostgreSQL Sample Database (postgresqltutorial.com)](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/) as an example data source, PostgreSQL as a Database for OLTP system and AWS Redshift as a Data Warehouse for OLAP system.
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
