@@ -34,7 +34,7 @@ Transactional Databases or Relational Databases are built to manage CRUD (Create
 
 Data Warehouses are built to manage analytics and aggregations quickly by storing data as a columnar. Most of their data models are denormalized. They centralize and integrate business operations data and track historical information.
 ![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/ddd0d6078022e7fcd6bf64f31eb5f9d049b1169f/images/Row_vs_Column_Store.png)
-<p align='center'>Row Store Vs Column Store[^2]</p>
+<p align='center'>Row Store Vs Column Store</p>[^2]
 So, it is better to use a Data Warehouse for analytical purposes.
 
 ## Things I have done in this Project:
