@@ -1,1 +1,1 @@
-# Data Modelling and Data Warehousing the DvD Rental Sample Database
+# Data Modelling and Data Warehousing the DVD Rental Sample Data in Redshift
