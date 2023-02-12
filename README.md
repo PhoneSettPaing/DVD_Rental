@@ -71,5 +71,19 @@ After loading the data, I connected Redshift with Tabelau (Data visualization so
 ![Example Dashboard](https://github.com/PhoneSettPaing/DVD_Rental/blob/1def632018be3434417b30349ecf62fa79d5afaf/images/DVD_Rental_Dashboard.PNG)
 <p align='center'>Sample Dashboard I created using Tableau</p>
 
+## Step for following this Project:
+1.	Create a database in PostgreSQL and Restore DVD Rental Sample Database in that database then Export tables in the database as csv format including headers.
+2.	Create an AWS S3 bucket and Upload tables data into that bucket
+3.	Create and Run a Crawler in AWS Glue
+4.	Query the Tables uploaded into S3 and also Get Tables’ Structure with Athena
+5.	Create a Redshift cluster and a database in that cluster
+6.	Run ETL in Jupyter Notebook
+7.	Create an IAM Role for AWS Glue Job
+8.	Create an ETL Job in AWS Glue Studio
+9.	Run an ETL Glue Job
+10.	Connect Tableau with Redshift
+11.	Create a dashboard in Tableau 
+
+
 [^1]: My reference.
 [^2]: Every new line should be prefixed with 2 spaces.
