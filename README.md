@@ -11,4 +11,4 @@ And running analytics queries on Transactional Database will be difficult and co
 3NF is a database schema design approach for relational databases which uses normalizing principles to reduce the duplication of data and avoid data anomalies such as insert, update and delete anomalies.
 
 Insert anomaly occurs when insertion of one record leads to the insertion of several more required data sets.
-![Example](https://github.com/PhoneSettPaing/DVD_Rental/blob/3a926377db2ab83965c8cbfd232aca3362585fe9/images/Insert%20anomaly.PNG)
+![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/3a926377db2ab83965c8cbfd232aca3362585fe9/images/Insert%20anomaly.PNG)
