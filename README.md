@@ -34,7 +34,7 @@ Transactional Databases or Relational Databases are built to manage CRUD (Create
 
 Data Warehouses are built to manage analytics and aggregations quickly by storing data as a columnar. Most of their data models are denormalized. They centralize and integrate business operations data and track historical information.
 ![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/ddd0d6078022e7fcd6bf64f31eb5f9d049b1169f/images/Row_vs_Column_Store.png)
-<p align='center'>Row Store Vs Column Store</p>[^2]
+<p align='center'>Row Store Vs Column Store[^2].</p>
 So, it is better to use a Data Warehouse for analytical purposes.
 
 ## Things I have done in this Project:
@@ -43,5 +43,4 @@ So, it is better to use a Data Warehouse for analytical purposes.
 In this Project, I used DVD rental data form [PostgreSQL Sample Database (postgresqltutorial.com)](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/) as an example data source, PostgreSQL as a Database for OLTP system and AWS Redshift as a Data Warehouse for OLAP system.
 
 [^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
+[^2]: Every new line should be prefixed with 2 spaces.
