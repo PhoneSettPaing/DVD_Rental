@@ -22,7 +22,7 @@ In the above Enrolment Table, the course and department information are repeated
 
 Delete anomaly occurs when deletion of one record leads to the deletion of several more required data sets.
 ![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/87d26d871b383d9b79dae640d95f4198062ad6ba/images/Delete%20anomaly.PNG)
-<p aligin='center'>Example College Enrolment Table for Delete Anomaly</p>
+<p align='center'>Example College Enrolment Table for Delete Anomaly</p>
 For example, Rose, the student who has been assigned the ID of ‘04’ has decided to leave her course. So, I need to delete her data but deleting Rose's data results in the loss of the records for the design department as they're dependent on Rose and her ID. This is an example of the deletion anomaly problem. Removing one instance of a record of data causes the deletion of other records.
 
 ## Why use Data Warehouse?
