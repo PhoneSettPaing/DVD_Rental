@@ -34,7 +34,7 @@ Transactional Databases or Relational Databases are built to manage CRUD(Create,
 
 Data Warehouses are built to manage analytics and aggregations quickly by storing data as a columnar. Most of their data models are denormalized. They centralize and integrate business operations data and track historical information.
 ![Row Store Vs Column Store](https://github.com/PhoneSettPaing/DVD_Rental/blob/ddd0d6078022e7fcd6bf64f31eb5f9d049b1169f/images/Row_vs_Column_Store.png)
-<p align='center'>Row Store Vs Column Store[^2].</p>
+<p align='center'><cite><a href="http://www.hanaexam.com/p/row-store-vs-column-store.html">Row Store Vs Column Store</a></cite></p>
 So, it is better to use a Data Warehouse for analytical purposes.
 
 ## Things I have done in this Project:
@@ -97,4 +97,3 @@ After loading the data, I connected Redshift with Tabelau(Data visualization sof
 
 
 [^1]: [Meta's Course 'Introduction to Database' in Coursera](https://www.coursera.org/learn/introduction-to-databases/lecture/ToTaE/what-is-database-normalization).
-[^2]: Every new line should be prefixed with 2 spaces.
