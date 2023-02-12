@@ -1,7 +1,8 @@
 # Data Modelling and Data Warehousing the DVD Rental Sample Database in AWS Redshift
 
 ## What is this Project about?
-This Project is about migrating the require data from OLTP (Online Transaction Processing) system, a Relational Database into OLAP (Online Analytical Processing) system, a Data Warehouse for analytical purpose.
+This Project is about migrating the require data from OLTP (Online Transaction Processing) system, a Relational Database into OLAP (Online Analytical Processing) system, a Data Warehouse for analytical purpose using the data platform architecture below.
+![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/b8e9287e20fd546f23e64e5e2284b3a27e3a3d60/images/Data_Architecture.PNG)
 
 ## Why migrate the data instead of directly doing analytics on OLTP system?
 It is not a good idea to run analytic queries on Transactional Database as it might slow them down and have negative impacts on customers. This system is a critical system as it is serving the customers so it is a good idea to run analysis on a copy of this data in different database or a data warehouse to avoid any problems occurring in a critical system.
@@ -38,8 +39,6 @@ Data Warehouses are built to manage analytics and aggregations quickly by storin
 So, it is better to use a Data Warehouse for analytical purposes.
 
 ## Things I have done in this Project:
-![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/b8e9287e20fd546f23e64e5e2284b3a27e3a3d60/images/Data_Architecture.PNG)
-
 In this Project, I used DVD rental data form [PostgreSQL Sample Database (postgresqltutorial.com)](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/) as an example data source, PostgreSQL as a Database for OLTP system and AWS Redshift as a Data Warehouse for OLAP system.
 
 [^1]: My reference.
