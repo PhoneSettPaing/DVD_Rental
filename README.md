@@ -28,3 +28,13 @@ Delete anomaly occurs when deletion of one record leads to the deletion of sever
 
 For example, Rose, the student who has been assigned the ID of ‘04’ has decided to leave her course. So, I need to delete her data but deleting Rose's data results in the loss of the records for the design department as they're dependent on Rose and her ID. This is an example of the deletion anomaly problem. Removing one instance of a record of data causes the deletion of other records.
 
+## Why use Data Warehouse?
+
+Transactional Databases or Relational Databases are built to manage CRUD (Create, Read, Update, Delete) operations quickly by storing data as a row. They have a highly normalized data model. They focus on operational data and don’t always track historical information.
+
+Data Warehouses are built to manage analytics and aggregations quickly by storing data as a columnar. Most of their data models are denormalized. They centralize and integrate business operations data and track historical information.
+
+![alt text](https://github.com/PhoneSettPaing/DVD_Rental/blob/ddd0d6078022e7fcd6bf64f31eb5f9d049b1169f/images/Row_vs_Column_Store.png)
+Row Store Vs Column Store
+
+So, it is better to use a Data Warehouse for analytical purposes.
