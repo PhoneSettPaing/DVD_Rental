@@ -75,10 +75,11 @@ After loading the data, I connected Redshift with Tabelau(Data visualization sof
 ## Step for following this Project:
 1.	Create a database in PostgreSQL and Restore DVD Rental Sample Database in that database then Export tables in the database as csv format including headers.
 
-<p align='center'>[![Example Video](http://img.youtube.com/vi/oQnMNqjHm34/0.jpg)](http://www.youtube.com/watch?feature=player_embedded&v=oQnMNqjHm34)</p>
+<p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=oQnMNqjHm34" target="_blank"><img src="http://img.youtube.com/vi/oQnMNqjHm34/0.jpg"></a></p>
 <p align='center'>Video example of Creating & Restoring database in PostgreSQL and Exporting tables in database as csv</p> 
 
 2.	Create an AWS S3 bucket and Upload tables data into that bucket
+[![Example Video](http://img.youtube.com/vi/oQnMNqjHm34/0.jpg)](http://www.youtube.com/watch?feature=player_embedded&v=oQnMNqjHm34)
 
 3.	Create and Run a Crawler in AWS Glue
 
