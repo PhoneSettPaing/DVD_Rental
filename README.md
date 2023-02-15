@@ -76,46 +76,58 @@ After loading the data, I connected Redshift with Tabelau(Data visualization sof
 1.	Create a database in PostgreSQL and Restore DVD Rental Sample Database in that database then Export tables in the database as csv format including headers.
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=oQnMNqjHm34" target="_blank"><img src="http://img.youtube.com/vi/oQnMNqjHm34/0.jpg"></a></p>
-<p align='center'>Video example of Creating & Restoring database in PostgreSQL and Exporting tables in database as csv</p> 
+<p align='center'>Video Example of Creating & Restoring database in PostgreSQL and Exporting tables in database as csv</p> 
 
 2.	Create an AWS S3 bucket and Upload tables data into that bucket
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=-E-xIFnsfNM" target="_blank"><img src="http://img.youtube.com/vi/-E-xIFnsfNM/0.jpg"></a></p>
+<p align='center'>Video Example of Creating an S3 Bucket and Uploading tables into it</p>
 
 3.	Create and Run a Crawler in AWS Glue
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=VqkqZCmJ_rU" target="_blank"><img src="http://img.youtube.com/vi/VqkqZCmJ_rU/0.jpg"></a></p>
+<p align='center'>Video Example of Creating a Glue Crawler and Running it</p>
 
 4.	Query the Tables uploaded into S3 and also Get Tables’ Structure with Athena
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=F90ausRTD-0" target="_blank"><img src="http://img.youtube.com/vi/F90ausRTD-0/0.jpg"></a></p>
+<p align='center'>Video Example of Querying the tables in S3 using Athena</p>
 
-5.	Create a Redshift cluster and a database in that cluster
+5.  Create a Star Schema Data Model for the Data Warehouse
+
+6.	Create a Redshift cluster and a database in that cluster
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=ja2XDOZQjs4" target="_blank"><img src="http://img.youtube.com/vi/ja2XDOZQjs4/0.jpg"></a></p>
+<p align='center'>Video Example of Creating a cluster and a database in Redshift</p>
 
-6.	Run ETL in Jupyter Notebook
+7.	Run ETL in Jupyter Notebook
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=kft4Pa_CDB0" target="_blank"><img src="http://img.youtube.com/vi/kft4Pa_CDB0/0.jpg"></a></p>
+<p align='center'>Video Example of Running ETL in Jupyter Notebook</p>
 
-7.	Create an IAM Role for AWS Glue Job
+8.	Create an IAM Role for AWS Glue Job
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=IU00ZfbAVYg" target="_blank"><img src="http://img.youtube.com/vi/IU00ZfbAVYg/0.jpg"></a></p>
+<p align='center'>Video Example of Creating an IAM Role for Glue Job</p>
 
-8.	Create an ETL Job in AWS Glue Studio
+9.	Create an ETL Job in AWS Glue Studio
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=PwBuIOGkh0c" target="_blank"><img src="http://img.youtube.com/vi/PwBuIOGkh0c/0.jpg"></a></p>
+<p align='center'>Video Example of Creating an ETL Job in AWS Glue Studio</p>
 
-9.	Run an ETL Glue Job
+10.	Run an ETL Glue Job
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=Ll9cgAr8dxU" target="_blank"><img src="http://img.youtube.com/vi/Ll9cgAr8dxU/0.jpg"></a></p>
+<p align='center'>Video Example of Running an ETL Glue Job</p>
 
-10.	Connect Tableau with Redshift
+11.	Connect Tableau with Redshift
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=_Ou1YjPEGSE" target="_blank"><img src="http://img.youtube.com/vi/_Ou1YjPEGSE/0.jpg"></a></p>
+<p align='center'>Video Example of Connecting Tableau with Redshift</p>
 
-11.	Create a dashboard in Tableau 
+12.	Create a dashboard in Tableau 
 
 <p align='center'><a href="http://www.youtube.com/watch?feature=player_embedded&v=-VpiOZkBrgU" target="_blank"><img src="http://img.youtube.com/vi/-VpiOZkBrgU/0.jpg"></a></p>
+<p align='center'>Video Example of Creating a Chart in Tableau for Dashboard</p>
 
 [^1]: [Meta's Course 'Introduction to Database' in Coursera](https://www.coursera.org/learn/introduction-to-databases/lecture/ToTaE/what-is-database-normalization).
