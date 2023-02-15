@@ -74,6 +74,8 @@ After loading the data, I connected Redshift with Tabelau(Data visualization sof
 
 ## Step for following this Project:
 1.	Create a database in PostgreSQL and Restore DVD Rental Sample Database in that database then Export tables in the database as csv format including headers.
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=oQnMNqjHm34" target="_blank"><img src="http://img.youtube.com/vi/oQnMNqjHm34/0.jpg"></a>
+<p align='center'>Video example of Creating, Restoring database in PostgreSQL and Exporting tables in database</p> 
 
 2.	Create an AWS S3 bucket and Upload tables data into that bucket
 
